@@ -1,1 +1,760 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+
+            <div class="user">
+                <div class="user__avatar">
+                    <img src="images/y1.png "width="62" height="60" alt="">
+                </div>
+                <div class="user__content">
+                    <div class="user__name">
+                        Petrashchuk<br>Bohdan
+                    </div>
+                    <div class="user__prof">Back-End Developer</div>
+                </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#work">work</a>
+                <a class="nav__link" href="#about">about me</a>
+                <a class="nav__link" href="#news">blog</a>
+                <a class="nav__link" href="#">contact</a>
+                <a class="nav__link" href="#reviews">reviews</a>
+                <a class="nav__link  nav__link--btn" href="#" data-modal="#modal_hire_me">hire me</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <img class="burger__icon" src="images/burger.svg" alt="">
+            </button>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Intro -->
+<section class="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <div class="intro__content">
+                <h2 class="intro__subtitle">Hello i'm</h2>
+                <h1 class="intro__title">Petrashchuk Bohdan</h1>
+                <div class="intro__text">Back-End Developer</div>
+
+                <div class="social">
+                    <a class="social__link" href="https://www.linkedin.com/in/bohdan-petrashchuk-316354177/" target="_blank">
+                        <img src="images/in.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.facebook.com/profile.php?id=100008874009377" target="_blank">
+                        <img src="images/facebook.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.instagram.com/blackstarjaxxs/" target="_blank">
+                        <img src="images/instagram.svg" alt="">
+                    </a>
+                    <a class="social__link" href="https://twitter.com/Blackstarjaxx" target="_blank">
+                        <img src="images/twitter.svg" alt="">
+                    </a>
+                </div>
+
+                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
+                <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
+            </div>
+
+            <img class="intro__photo" src="images/ya2.png" height="500" width="360" alt="">
+        </div><!-- /.intro__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Works -->
+<div id="work" class="works">
+    <div class="container">
+
+        <div class="works__nav">
+            <a class="works__nav-link" href="#" data-filter="all">All</a>
+            <a class="works__nav-link" href="#" data-filter="app">App</a>
+            <a class="works__nav-link" href="#" data-filter="website">Websites</a>
+        </div>
+
+
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_1">
+                    <img class="work__image" src="images/CRM.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">category: website</div>
+                        <div class="work__title">
+                            CRM
+                            <time class="work__date" datetime="2019-11-22 19:00">2019</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_2">
+                    <img class="work__image" src="images/CMS.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">category: website</div>
+                        <div class="work__title">
+                            CMS
+                            <time class="work__date" datetime="2019-11-22 19:00">2019</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_3">
+                    <img class="work__image" src="images/bot.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">category: app</div>
+                        <div class="work__title">
+                            Telegram Bot "HoroscopeBot"
+                            <time class="work__date" datetime="2019-11-22 19:00">2019</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.portfolio -->
+
+        <div class="text-center">
+            <a class="btn  btn--sm" href="#">LOAD MORE WORK</a>
+        </div>
+
+    </div><!-- /.container -->
+</div><!-- /.works -->
+
+
+
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+
+        <div class="about__inner">
+            <div class="about__photo">
+                <img class="img" src="images/ya.png" alt="">
+            </div>
+
+            <div class="about__content">
+                <h3 class="about__title">about me</h3>
+                <h2 class="about__bigtitle">WHO AM I</h2>
+                <div class="about__text">
+                    <p>Hi, I'm Bohdan, I'm 19, born and lives in the village of Panka, studied at the local school, After graduating from school, I entered the ChNU , the Faculty of Economics, Department of Economic Cybernetics.</p>
+                    <p>I'm engaged in sports, various kinds, there are certain achievements in sports, but later I realized that it was not mine, and started to study music, while studying music programs,  I met with video motivational programming, and drew attention to coding.
+                        I really liked it and I started school yet, I studied programming languages myself, everything started with PascalABC, it also sped on my choice of university and specialty.</p>
+                    <p>At the 2nd course in ChNU, representatives from SoftServe came to us, where they talked about the company, and they told how they work in an IT company, what programming languages they work with, and how the process itself happens, since then, i realized that coding is mine.</p>
+                    <p>Strengths and weaknesses of my side. I can attribute  <br><br>
+                        Strong: Enthusiasm, Diligence, Striving to be better, Help others, Good Manners, Compassion and learning everything that was unknown to me. <br><br>
+                        
+                        Weaknesses: Bad English proficiency, Not knowledge of all nuances in coding, Almost Lack of experience in teamwork .
+                        </p>
+                </div>
+                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
+                <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
+            </div><!-- /.about__content -->
+        </div><!-- /.about__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Reviews -->
+<div id="reviews" class="reviews">
+    <div class="container">
+
+        <div class="reviews__item">
+            <div class="reviews__text">
+                <p> Great student who is able to work 48/7. He has many skills. He studies hard, learns both programming languages and foreign languages.</p>
+                <p>Takes active part in public organizations. It is a member of the Student Parliament of the Faculty of Economics</p>
+            </div>
+
+            <div class="reviews__author">
+                <a target="_blank" href="https://emm.cv.ua/">
+                <img class="reviews__photo" src="images/chny.png" height="103" alt="">
+                </a>    
+                <div class="reviews__name">ChNU</div>
+                <div class="reviews__company">Faculty of Economics <br>Department of Economic Cybernetics</div>
+                <div class="reviews__rating">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                </div>
+            </div>
+        </div><!-- /.reviews__item -->
+
+    </div><!-- /.container -->
+</div><!-- /.reviews -->
+
+
+
+<!-- News -->
+<section class="news" id="news">
+    <div class="container">
+
+        <div class="news__header">
+            <h3 class="news__title">read me</h3>
+            <div class="news__text">Sometimes I post something interesting </div>
+        </div>
+
+
+        <div class="articles">
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            10<br>February
+                        </time>
+                        <a href="https://cinex.com.ua/25-porad-i-hytroschiv-v-laravel/" target="_blank">
+                            <img class="articles__photo"   src="images/lara.png" alt="">
+                        </a>
+                    </div>
+                    <div class="articles__content">
+                        <h4 class="articles__title">
+                            <a target="_blank" href="https://cinex.com.ua/25-porad-i-hytroschiv-v-laravel/">twenty-five tips and tricks in Laravel</a>
+                        </h4>
+                        <div class="articles__cat">CATEGORY</div>
+                        <div class="articles__text">
+                            <p>Not too long ago was a time when PHP and its community were mildly disliked. And almost every day, the main joke was to say how awful PHP is. Let's see what new PHP-ridiculous blog posts are posting today?</p>
+                        </div>
+                    </div>
+                    <a target="_blank" class="btn  btn--sm" href="https://cinex.com.ua/25-porad-i-hytroschiv-v-laravel/">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            12<br>February
+                        </time>
+                        <a target="_blank" href="https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e">
+                            <img class="articles__photo"  src="images/lan.png" alt="">
+                        </a>
+                    </div>
+                    <div class="articles__content">
+                        <h4 class="articles__title">
+                            <a target="_blank" href="https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e">TEN THE BEST  programming languages IN 2020</a>
+                        </h4>
+                        <div class="articles__cat">CATEGORY</div>
+                        <div class="articles__text">
+                            <p>In-depth analysis and ranking of the top programming languages for job seekers and new developers</p>
+                        </div>
+                    </div>
+                    <a target="_blank" class="btn  btn--sm" href="https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            14<br>February
+                        </time>
+                        <a target="_blank" href="https://zety.com/blog/burnout?gclid=CjwKCAiAp5nyBRABEiwApTwjXgZwnntav5vqsXlwwv_DIM0xvoocamVd4CN8Mk6ANVjq6yLLHDNjYxoC9coQAvD_BwE">
+                            <img class="articles__photo" src="images/vig.png" alt="">
+                        </a>
+                    </div>
+                    <div class="articles__content">
+                        <h4 class="articles__title">
+                            <a target="_blank" href="https://zety.com/blog/burnout?gclid=CjwKCAiAp5nyBRABEiwApTwjXgZwnntav5vqsXlwwv_DIM0xvoocamVd4CN8Mk6ANVjq6yLLHDNjYxoC9coQAvD_BwE">how to prevent emotional burnout</a>
+                        </h4>
+                        <div class="articles__cat">CATEGORY</div>
+                        <div class="articles__text">
+                            <p>
+                                210 million people worldwide and 7 million Ukrainian suffer from burnout. The syndrome occurs across all industries. What causes it? How can you fight it? Read on to find out.
+                            </p>
+                        </div>
+                    </div>
+                    <a target="_blank" class="btn  btn--sm" href="https://zety.com/blog/burnout?gclid=CjwKCAiAp5nyBRABEiwApTwjXgZwnntav5vqsXlwwv_DIM0xvoocamVd4CN8Mk6ANVjq6yLLHDNjYxoC9coQAvD_BwE">READ MORE</a>
+                </div>
+            </div>
+
+        </div><!-- /.articles -->
+
+        <div class="news__footer">
+            <a class="news__link" href="#">See more posts</a>
+        </div>
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__credits">
+                <div class="footer__copyright">
+                    &copy; 2020 Student/Developer
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/bohdan-petrashchuk-316354177/" target="_blank">
+                        <img src="images/linkedin-gray.svg" width="18" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100008874009377" target="_blank">
+                        <img src="images/fb-gray.svg" height="18" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/blackstarjaxxs/" target="_blank">
+                        <img src="images/instagram-gray.svg" width="18" alt="">
+                    </a>
+                    <a href="https://twitter.com/Blackstarjaxx" target="_blank">
+                        <img src="images/twitter-gray.svg" width="20" alt="">
+                    </a>
+                </div>
+            </div><!-- /.footer__credits -->
+
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="#work">Work</a>
+                <a class="footer__nav-link" href="#about">About me</a>
+                <a class="footer__nav-link" href="#news">Blog</a>
+                <a class="footer__nav-link" href="#">Contact</a>
+                <a class="footer__nav-link" href="#reviews">Reviews</a>
+                <a class="footer__nav-link  footer__nav-link--btn" data-modal="#modal_hire_me" href="#">Hire me</a>
+            </nav>
+        </div><!-- /.footer__inner -->
+
+    </div><!-- /.container -->
+</footer>
+
+
+
+
+
+<!-- Modals -->
+<div class="modal" id="modal_project_1">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" width="800" height="560" src="images/lara.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" width="800" height="560" src="images/CRM.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">CRM</h3>
+                    <div class="modal-work__info">
+                        category: Websites <span class="modal-work__info-divider">|</span> 2019
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Join To It</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Creating a CRM system where you can register and manage clients and employees of the company
+                        Writing back-end part with PHP/Laravel
+                        Using outside libraries for example: Admin LTE <br><br>
+                        <a target="_blank" class="link" href="https://github.com/BlackStarJaxx/LaravelProject">Link it</a>
+                    </p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_project_2">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" width="800" height="560" src="images/cmsf.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" width="800" height="560" src="images/code1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">CMS</h3>
+                    <div class="modal-work__info">
+                        category: websites <span class="modal-work__info-divider">|</span> 2019
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">Join To It</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Creating a customer management system with the ability to track their orders, send orders
+                        Writing back-end part with PHP/Laravel Writing your own interface using the Vue.js framework <br><br>
+                        <a target="_blank" class="link" href="https://github.com/BlackStarJaxx/CMS_Task">Link it</a>
+                    </p>
+                    
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_3">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo"  src="images/tele.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" width="790" height="550" src="images/bote.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">HoroscopeBot</h3>
+                    <div class="modal-work__info">
+                        category: App <span class="modal-work__info-divider">|</span> 2019
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Client:</div>
+                    <div class="modal-work__client-company">ChNU</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>
+                        Creating Telegrams Bot using Python3 and TelegramAPI.
+                        Working in a team of 4 participants.
+                        And the presentation of the bot in front of students and the teacher <br> <br>
+                        <a target="_blank" class="link" href="https://github.com/BlackStarJaxx/TeleBot">Link it</a>
+                        
+                    </p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_resume">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="modal__content">
+            <h3 class="modal__title  text-center">RESUME</h3>
+
+            <div class="text-center">
+                <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
+                <a class="btn btn--thin" href="#">PRINT</a>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline__col  timeline__col--left">
+                    <h4 class="timeline__title">EXPERIENCE</h4>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>June</b></time>
+                        <h5 class="timeline__subtitle">Naturezing</h5>
+                        <div class="timeline__position">Freelancer</div>
+                        <div class="timeline__text">
+                            <p>
+                                Worked on a project from the US <br>
+                                Working with the Magento platform<br>
+                                Where I needed to administer an internet shop <br>The job was to add products to the site
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>August/October</b></time>
+                        <h5 class="timeline__subtitle">CRM</h5>
+                        <div class="timeline__position">Back-End Developer</div>
+                        <div class="timeline__text">
+                            <p>
+                                Creating a CRM system where you can register and manage clients and employees of the company<br>
+                                Writing back-end part with PHP/Laravel<br>
+                                Using outside libraries for example: Admin LTE 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>October/November</b></time>
+                        <h5 class="timeline__subtitle">Internet Shop /CMS</h5>
+                        <div class="timeline__position">Back-End Developer</div>
+                        <div class="timeline__text">
+                            <p>
+                                Creating a customer management system with the ability to track their orders, send orders<br>
+                                Writing back-end part with PHP/Laravel
+                                Writing your own interface using the Vue.js framework
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>December</b></time>
+                        <h5 class="timeline__subtitle">HoroscopeBot</h5>
+                        <div class="timeline__position">Back-End Developer</div>
+                        <div class="timeline__text">
+                            <p>
+                                Creating Telegrams Bot using Python3 and TelegramAPI.<br>
+                                Working in a team of 4 participants.<br>
+                                And the presentation of the bot in front of students and the teacher
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline__col  timeline__col--right">
+                    <h4 class="timeline__title">EDUCATION</h4>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2005 - <b>2017</b></time>
+                        <h5 class="timeline__subtitle">School</h5>
+                        <div class="timeline__position">Pankivsky NVK</div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2017 - <b>2021</b></time>
+                        <h5 class="timeline__subtitle">ChNU named after Yuriy Fedkovic</h5>
+                        <div class="timeline__position">Bachelor</div>
+                    </div>
+
+                    <h4 class="timeline__title">Skills</h4>
+                    <div class="progress-bar">
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">UI/UX Design</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI0" class="progress-bar__progress"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">PHP/Laravel</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI1" class="progress-bar__progress"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">Python</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI2" class="progress-bar__progress"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">C#</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI3" class="progress-bar__progress"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">GitHub</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI4"  class="progress-bar__progress" ></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">SCRUM</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI5" class="progress-bar__progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">Google Search</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div id="bar_UI6" class="progress-bar__progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div><!-- /.progress-bar -->
+
+                    
+                </div><!-- /.timeline__col -->
+
+            </div><!-- /.timeline -->
+
+            <div class="text-center">
+                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
+            </div>
+
+        </div><!-- /.modal__content -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_hire_me">
+    <div class="modal__dialog  modal__dialog--sm">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="Close">
+        </button>
+
+        <div class="contact">
+            <div class="contact__left">
+                <h3 class="modal__title mb-0">LET'S TALK!</h3>
+                <h4 class="modal__subtitle">CALL ME OR SEND ME A REQUEST</h4>
+
+                <ul class="contact__info">
+                    <li class="contact__info-item">
+                        <img class="contact__info-icon" src="images/phone.svg" alt="">
+                        +380 66 074 22 69
+                    </li>
+                    <li class="contact__info-item">
+                        <img class="contact__info-icon" src="images/mail.svg" alt="">
+                        BlackStarJaxx07@gmail.com
+                    </li>
+                </ul>
+
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <label class="form__label" for="input-email">Adress e-mail</label>
+                        <input class="form__input" name="input-email" type="text" id="input-email" placeholder="Adress e-mail">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-text">Request</label>
+                        <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Type your request..."></textarea>
+                    </div>
+
+                    <div class="text-right">
+                        <button class="btn" type="submit">SEND</button>
+                    </div>
+                    
+                </form>
+                
+            </div><!-- /.contact__left -->
+        </div><!-- /.contact -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- JS -->
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
