@@ -192,7 +192,7 @@
 
   //telegram bot request
   $(document).ready(function () {
-    $(".form-element").submit(function () {
+    $(".php-email-form").submit(function () {
         var formID = $(this).attr('id');
         var formNm = $('#' + formID);
         var message = $(formNm).find(".form-message");
