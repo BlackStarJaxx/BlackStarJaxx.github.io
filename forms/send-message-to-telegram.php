@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-if (!empty($_POST['name']) && !empty($_POST['phone'])){
+if (!empty($_POST['name']) && !empty($_POST['email'])){
   if (isset($_POST['name'])) {
     if (!empty($_POST['name'])){
   $name = strip_tags($_POST['name']);
