@@ -1,760 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Petrashchuk Bohdan - Resume </title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/b.jpg" rel="icon">
+  <link href="assets/img/b.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
 
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-<!-- Header -->
-<header class="header">
-    <div class="container">
-        <div class="header__inner">
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-            <div class="user">
-                <div class="user__avatar">
-                    <img src="images/y1.png "width="62" height="60" alt="">
-                </div>
-                <div class="user__content">
-                    <div class="user__name">
-                        Petrashchuk<br>Bohdan тесt
-                    </div>
-                    <div class="user__prof">Back-End Developer</div>
-                </div>
-            </div>
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About Me</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-            <nav class="nav" id="nav">
-                <a class="nav__link" href="#work">work</a>
-                <a class="nav__link" href="#about">about me</a>
-                <a class="nav__link" href="#news">blog</a>
-                <a class="nav__link" href="#">contact</a>
-                <a class="nav__link" href="#reviews">reviews</a>
-                <a class="nav__link  nav__link--btn" href="#" data-modal="#modal_hire_me">hire me</a>
-            </nav>
+  </header><!-- End Header -->
 
-            <button class="burger" type="button" id="navToggle">
-                <img class="burger__icon" src="images/burger.svg" alt="">
-            </button>
-        </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Petrashchuk Bohdan</h1>
+      <p>I'm <span class="typed" data-typed-items="Back-End Developer, Sportsman, Student"></span></p>
+      <div class="social-links">
+        <a href="https://twitter.com/Blackstarjaxx" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100008874009377" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/blackstarjaxxs/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="skype:live:blackstarjaxx07" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/bohdan-petrashchuk-316354177/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/BlackStarJaxx" class="github"><i class="bx bxl-github"></i></a>
+      </div>
     </div>
-</header>
+  </section><!-- End Hero -->
 
+  <main id="main">
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-<!-- Intro -->
-<section class="intro">
-    <div class="container">
-
-        <div class="intro__inner">
-            <div class="intro__content">
-                <h2 class="intro__subtitle">Hello i'm</h2>
-                <h1 class="intro__title">Petrashchuk Bohdan</h1>
-                <div class="intro__text">Back-End Developer</div>
-
-                <div class="social">
-                    <a class="social__link" href="https://www.linkedin.com/in/bohdan-petrashchuk-316354177/" target="_blank">
-                        <img src="images/in.svg" alt="">
-                    </a>
-                    <a class="social__link" href="https://www.facebook.com/profile.php?id=100008874009377" target="_blank">
-                        <img src="images/facebook.svg" alt="">
-                    </a>
-                    <a class="social__link" href="https://www.instagram.com/blackstarjaxxs/" target="_blank">
-                        <img src="images/instagram.svg" alt="">
-                    </a>
-                    <a class="social__link" href="https://twitter.com/Blackstarjaxx" target="_blank">
-                        <img src="images/twitter.svg" alt="">
-                    </a>
-                </div>
-
-                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
-                <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
-            </div>
-
-            <img class="intro__photo" src="images/ya2.png" height="500" width="360" alt="">
-        </div><!-- /.intro__inner -->
-
-    </div><!-- /.container -->
-</section>
-
-
-
-<!-- Works -->
-<div id="work" class="works">
-    <div class="container">
-
-        <div class="works__nav">
-            <a class="works__nav-link" href="#" data-filter="all">All</a>
-            <a class="works__nav-link" href="#" data-filter="app">App</a>
-            <a class="works__nav-link" href="#" data-filter="website">Websites</a>
+        <div class="section-title">
+          <h2>About Me</h2>
         </div>
 
-
-        <div class="portfolio" id="portfolio">
-            <div class="portfolio__col" data-cat="website">
-                <div class="work" data-modal="#modal_project_1">
-                    <img class="work__image" src="images/CRM.png" alt="">
-                    <div class="work__content">
-                        <div class="work__cat">category: website</div>
-                        <div class="work__title">
-                            CRM
-                            <time class="work__date" datetime="2019-11-22 19:00">2019</time>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio__col" data-cat="website">
-                <div class="work" data-modal="#modal_project_2">
-                    <img class="work__image" src="images/CMS.png" alt="">
-                    <div class="work__content">
-                        <div class="work__cat">category: website</div>
-                        <div class="work__title">
-                            CMS
-                            <time class="work__date" datetime="2019-11-22 19:00">2019</time>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio__col" data-cat="app">
-                <div class="work" data-modal="#modal_project_3">
-                    <img class="work__image" src="images/bot.png" alt="">
-                    <div class="work__content">
-                        <div class="work__cat">category: app</div>
-                        <div class="work__title">
-                            Telegram Bot "HoroscopeBot"
-                            <time class="work__date" datetime="2019-11-22 19:00">2019</time>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.portfolio -->
-
-        <div class="text-center">
-            <a class="btn  btn--sm" href="#">LOAD MORE WORK</a>
-        </div>
-
-    </div><!-- /.container -->
-</div><!-- /.works -->
-
-
-
-<!-- About -->
-<section id="about" class="about">
-    <div class="container">
-
-        <div class="about__inner">
-            <div class="about__photo">
-                <img class="img" src="images/ya.png" alt="">
-            </div>
-
-            <div class="about__content">
-                <h3 class="about__title">about me</h3>
-                <h2 class="about__bigtitle">WHO AM I</h2>
-                <div class="about__text">
-                    <p>Hi, I'm Bohdan, I'm 19, born and lives in the village of Panka, studied at the local school, After graduating from school, I entered the ChNU , the Faculty of Economics, Department of Economic Cybernetics.</p>
-                    <p>I'm engaged in sports, various kinds, there are certain achievements in sports, but later I realized that it was not mine, and started to study music, while studying music programs,  I met with video motivational programming, and drew attention to coding.
-                        I really liked it and I started school yet, I studied programming languages myself, everything started with PascalABC, it also sped on my choice of university and specialty.</p>
-                    <p>At the 2nd course in ChNU, representatives from SoftServe came to us, where they talked about the company, and they told how they work in an IT company, what programming languages they work with, and how the process itself happens, since then, i realized that coding is mine.</p>
-                    <p>Strengths and weaknesses of my side. I can attribute  <br><br>
-                        Strong: Enthusiasm, Diligence, Striving to be better, Help others, Good Manners, Compassion and learning everything that was unknown to me. <br><br>
-                        
-                        Weaknesses: Bad English proficiency, Not knowledge of all nuances in coding, Almost Lack of experience in teamwork .
-                        </p>
-                </div>
-                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
-                <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
-            </div><!-- /.about__content -->
-        </div><!-- /.about__inner -->
-
-    </div><!-- /.container -->
-</section>
-
-
-
-<!-- Reviews -->
-<div id="reviews" class="reviews">
-    <div class="container">
-
-        <div class="reviews__item">
-            <div class="reviews__text">
-                <p> Great student who is able to work 48/7. He has many skills. He studies hard, learns both programming languages and foreign languages.</p>
-                <p>Takes active part in public organizations. It is a member of the Student Parliament of the Faculty of Economics</p>
-            </div>
-
-            <div class="reviews__author">
-                <a target="_blank" href="https://emm.cv.ua/">
-                <img class="reviews__photo" src="images/chny.png" height="103" alt="">
-                </a>    
-                <div class="reviews__name">ChNU</div>
-                <div class="reviews__company">Faculty of Economics <br>Department of Economic Cybernetics</div>
-                <div class="reviews__rating">
-                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
-                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
-                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
-                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
-                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
-                </div>
-            </div>
-        </div><!-- /.reviews__item -->
-
-    </div><!-- /.container -->
-</div><!-- /.reviews -->
-
-
-
-<!-- News -->
-<section class="news" id="news">
-    <div class="container">
-
-        <div class="news__header">
-            <h3 class="news__title">read me</h3>
-            <div class="news__text">Sometimes I post something interesting </div>
-        </div>
-
-
-        <div class="articles">
-            <div class="articles__col">
-                <div class="articles__item">
-                    <div class="articles__header">
-                        <time class="articles__date">
-                            10<br>February
-                        </time>
-                        <a href="https://cinex.com.ua/25-porad-i-hytroschiv-v-laravel/" target="_blank">
-                            <img class="articles__photo"   src="images/lara.png" alt="">
-                        </a>
-                    </div>
-                    <div class="articles__content">
-                        <h4 class="articles__title">
-                            <a target="_blank" href="https://cinex.com.ua/25-porad-i-hytroschiv-v-laravel/">twenty-five tips and tricks in Laravel</a>
-                        </h4>
-                        <div class="articles__cat">CATEGORY</div>
-                        <div class="articles__text">
-                            <p>Not too long ago was a time when PHP and its community were mildly disliked. And almost every day, the main joke was to say how awful PHP is. Let's see what new PHP-ridiculous blog posts are posting today?</p>
-                        </div>
-                    </div>
-                    <a target="_blank" class="btn  btn--sm" href="https://cinex.com.ua/25-porad-i-hytroschiv-v-laravel/">READ MORE</a>
-                </div>
-            </div>
-
-            <div class="articles__col">
-                <div class="articles__item">
-                    <div class="articles__header">
-                        <time class="articles__date">
-                            12<br>February
-                        </time>
-                        <a target="_blank" href="https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e">
-                            <img class="articles__photo"  src="images/lan.png" alt="">
-                        </a>
-                    </div>
-                    <div class="articles__content">
-                        <h4 class="articles__title">
-                            <a target="_blank" href="https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e">TEN THE BEST  programming languages IN 2020</a>
-                        </h4>
-                        <div class="articles__cat">CATEGORY</div>
-                        <div class="articles__text">
-                            <p>In-depth analysis and ranking of the top programming languages for job seekers and new developers</p>
-                        </div>
-                    </div>
-                    <a target="_blank" class="btn  btn--sm" href="https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e">READ MORE</a>
-                </div>
-            </div>
-
-            <div class="articles__col">
-                <div class="articles__item">
-                    <div class="articles__header">
-                        <time class="articles__date">
-                            14<br>February
-                        </time>
-                        <a target="_blank" href="https://zety.com/blog/burnout?gclid=CjwKCAiAp5nyBRABEiwApTwjXgZwnntav5vqsXlwwv_DIM0xvoocamVd4CN8Mk6ANVjq6yLLHDNjYxoC9coQAvD_BwE">
-                            <img class="articles__photo" src="images/vig.png" alt="">
-                        </a>
-                    </div>
-                    <div class="articles__content">
-                        <h4 class="articles__title">
-                            <a target="_blank" href="https://zety.com/blog/burnout?gclid=CjwKCAiAp5nyBRABEiwApTwjXgZwnntav5vqsXlwwv_DIM0xvoocamVd4CN8Mk6ANVjq6yLLHDNjYxoC9coQAvD_BwE">how to prevent emotional burnout</a>
-                        </h4>
-                        <div class="articles__cat">CATEGORY</div>
-                        <div class="articles__text">
-                            <p>
-                                210 million people worldwide and 7 million Ukrainian suffer from burnout. The syndrome occurs across all industries. What causes it? How can you fight it? Read on to find out.
-                            </p>
-                        </div>
-                    </div>
-                    <a target="_blank" class="btn  btn--sm" href="https://zety.com/blog/burnout?gclid=CjwKCAiAp5nyBRABEiwApTwjXgZwnntav5vqsXlwwv_DIM0xvoocamVd4CN8Mk6ANVjq6yLLHDNjYxoC9coQAvD_BwE">READ MORE</a>
-                </div>
-            </div>
-
-        </div><!-- /.articles -->
-
-        <div class="news__footer">
-            <a class="news__link" href="#">See more posts</a>
-        </div>
-
-    </div><!-- /.container -->
-</section>
-
-
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-
-        <div class="footer__inner">
-            <div class="footer__credits">
-                <div class="footer__copyright">
-                    &copy; 2020 Student/Developer
-                </div>
-
-                <div class="footer__social">
-                    <a href="https://www.linkedin.com/in/bohdan-petrashchuk-316354177/" target="_blank">
-                        <img src="images/linkedin-gray.svg" width="18" alt="">
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100008874009377" target="_blank">
-                        <img src="images/fb-gray.svg" height="18" alt="">
-                    </a>
-                    <a href="https://www.instagram.com/blackstarjaxxs/" target="_blank">
-                        <img src="images/instagram-gray.svg" width="18" alt="">
-                    </a>
-                    <a href="https://twitter.com/Blackstarjaxx" target="_blank">
-                        <img src="images/twitter-gray.svg" width="20" alt="">
-                    </a>
-                </div>
-            </div><!-- /.footer__credits -->
-
-            <nav class="footer__nav">
-                <a class="footer__nav-link" href="#work">Work</a>
-                <a class="footer__nav-link" href="#about">About me</a>
-                <a class="footer__nav-link" href="#news">Blog</a>
-                <a class="footer__nav-link" href="#">Contact</a>
-                <a class="footer__nav-link" href="#reviews">Reviews</a>
-                <a class="footer__nav-link  footer__nav-link--btn" data-modal="#modal_hire_me" href="#">Hire me</a>
-            </nav>
-        </div><!-- /.footer__inner -->
-
-    </div><!-- /.container -->
-</footer>
-
-
-
-
-
-<!-- Modals -->
-<div class="modal" id="modal_project_1">
-    <div class="modal__dialog">
-
-        <button class="modal__close" type="button" data-close>
-            <img src="images/modal-close.svg" alt="Close">
-        </button>
-
-        <div class="modal-work">
-            <div class="modal-work__preview">
-                <div data-slider="slick">
-                    <div>
-                        <img class="modal-work__photo" width="800" height="560" src="images/lara.png" alt="">
-                    </div>
-                    <div>
-                        <img class="modal-work__photo" width="800" height="560" src="images/CRM.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-work__content">
-
-                <div class="modal-work__header">
-                    <h3 class="modal-work__title">CRM</h3>
-                    <div class="modal-work__info">
-                        category: Websites <span class="modal-work__info-divider">|</span> 2019
-                    </div>
-                </div>
-
-                <div class="modal-work__client">
-                    <div class="modal-work__client-title">Client:</div>
-                    <div class="modal-work__client-company">Join To It</div>
-                </div>
-
-                <div class="modal-work__text">
-                    <p>Creating a CRM system where you can register and manage clients and employees of the company
-                        Writing back-end part with PHP/Laravel
-                        Using outside libraries for example: Admin LTE <br><br>
-                        <a target="_blank" class="link" href="https://github.com/BlackStarJaxx/LaravelProject">Link it</a>
-                    </p>
-                </div>
-
-                <div class="modal-work__footer">
-                    <button class="modal-work__btn slickPrev" type="button">
-                        <img src="images/back.svg" height="11" alt="">
-                        Previous
-                    </button>
-                    <button class="modal-work__btn slickNext" type="button">
-                        Next
-                        <img src="images/next.svg" height="11" alt="">
-                    </button>
-                </div>
-
-            </div><!-- /.modal-work__content -->
-        </div><!--/.modal-work -->
-
-    </div><!-- /.modal__dialog -->
-</div><!-- /.modal -->
-
-
-<div class="modal" id="modal_project_2">
-    <div class="modal__dialog">
-
-        <button class="modal__close" type="button" data-close>
-            <img src="images/modal-close.svg" alt="Close">
-        </button>
-
-        <div class="modal-work">
-            <div class="modal-work__preview">
-                <div data-slider="slick">
-                    <div>
-                        <img class="modal-work__photo" width="800" height="560" src="images/cmsf.png" alt="">
-                    </div>
-                    <div>
-                        <img class="modal-work__photo" width="800" height="560" src="images/code1.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-work__content">
-
-                <div class="modal-work__header">
-                    <h3 class="modal-work__title">CMS</h3>
-                    <div class="modal-work__info">
-                        category: websites <span class="modal-work__info-divider">|</span> 2019
-                    </div>
-                </div>
-
-                <div class="modal-work__client">
-                    <div class="modal-work__client-title">Client:</div>
-                    <div class="modal-work__client-company">Join To It</div>
-                </div>
-
-                <div class="modal-work__text">
-                    <p>Creating a customer management system with the ability to track their orders, send orders
-                        Writing back-end part with PHP/Laravel Writing your own interface using the Vue.js framework <br><br>
-                        <a target="_blank" class="link" href="https://github.com/BlackStarJaxx/CMS_Task">Link it</a>
-                    </p>
-                    
-                </div>
-
-                <div class="modal-work__footer">
-                    <button class="modal-work__btn slickPrev" type="button">
-                        <img src="images/back.svg" height="11" alt="">
-                        Previous
-                    </button>
-                    <button class="modal-work__btn slickNext" type="button">
-                        Next
-                        <img src="images/next.svg" height="11" alt="">
-                    </button>
-                </div>
-
-            </div><!-- /.modal-work__content -->
-        </div><!--/.modal-work -->
-
-    </div><!-- /.modal__dialog -->
-</div><!-- /.modal -->
-
-<div class="modal" id="modal_project_3">
-    <div class="modal__dialog">
-
-        <button class="modal__close" type="button" data-close>
-            <img src="images/modal-close.svg" alt="Close">
-        </button>
-
-        <div class="modal-work">
-            <div class="modal-work__preview">
-                <div data-slider="slick">
-                    <div>
-                        <img class="modal-work__photo"  src="images/tele.png" alt="">
-                    </div>
-                    <div>
-                        <img class="modal-work__photo" width="790" height="550" src="images/bote.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-work__content">
-
-                <div class="modal-work__header">
-                    <h3 class="modal-work__title">HoroscopeBot</h3>
-                    <div class="modal-work__info">
-                        category: App <span class="modal-work__info-divider">|</span> 2019
-                    </div>
-                </div>
-
-                <div class="modal-work__client">
-                    <div class="modal-work__client-title">Client:</div>
-                    <div class="modal-work__client-company">ChNU</div>
-                </div>
-
-                <div class="modal-work__text">
-                    <p>
-                        Creating Telegrams Bot using Python3 and TelegramAPI.
-                        Working in a team of 4 participants.
-                        And the presentation of the bot in front of students and the teacher <br> <br>
-                        <a target="_blank" class="link" href="https://github.com/BlackStarJaxx/TeleBot">Link it</a>
-                        
-                    </p>
-                </div>
-
-                <div class="modal-work__footer">
-                    <button class="modal-work__btn slickPrev" type="button">
-                        <img src="images/back.svg" height="11" alt="">
-                        Previous
-                    </button>
-                    <button class="modal-work__btn slickNext" type="button">
-                        Next
-                        <img src="images/next.svg" height="11" alt="">
-                    </button>
-                </div>
-
-            </div><!-- /.modal-work__content -->
-        </div><!--/.modal-work -->
-
-    </div><!-- /.modal__dialog -->
-</div><!-- /.modal -->
-
-
-<div class="modal" id="modal_resume">
-    <div class="modal__dialog">
-
-        <button class="modal__close" type="button" data-close>
-            <img src="images/modal-close.svg" alt="Close">
-        </button>
-
-        <div class="modal__content">
-            <h3 class="modal__title  text-center">RESUME</h3>
-
-            <div class="text-center">
-                <a class="btn btn--thin" href="#">DOWNLOAD PDF</a>
-                <a class="btn btn--thin" href="#">PRINT</a>
-            </div>
-
-            <div class="timeline">
-                <div class="timeline__col  timeline__col--left">
-                    <h4 class="timeline__title">EXPERIENCE</h4>
-
-                    <div class="timeline__item">
-                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>June</b></time>
-                        <h5 class="timeline__subtitle">Naturezing</h5>
-                        <div class="timeline__position">Freelancer</div>
-                        <div class="timeline__text">
-                            <p>
-                                Worked on a project from the US <br>
-                                Working with the Magento platform<br>
-                                Where I needed to administer an internet shop <br>The job was to add products to the site
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="timeline__item">
-                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>August/October</b></time>
-                        <h5 class="timeline__subtitle">CRM</h5>
-                        <div class="timeline__position">Back-End Developer</div>
-                        <div class="timeline__text">
-                            <p>
-                                Creating a CRM system where you can register and manage clients and employees of the company<br>
-                                Writing back-end part with PHP/Laravel<br>
-                                Using outside libraries for example: Admin LTE 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="timeline__item">
-                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>October/November</b></time>
-                        <h5 class="timeline__subtitle">Internet Shop /CMS</h5>
-                        <div class="timeline__position">Back-End Developer</div>
-                        <div class="timeline__text">
-                            <p>
-                                Creating a customer management system with the ability to track their orders, send orders<br>
-                                Writing back-end part with PHP/Laravel
-                                Writing your own interface using the Vue.js framework
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline__item">
-                        <time class="timeline__date" datetime="11-21-2019">2019 - <b>December</b></time>
-                        <h5 class="timeline__subtitle">HoroscopeBot</h5>
-                        <div class="timeline__position">Back-End Developer</div>
-                        <div class="timeline__text">
-                            <p>
-                                Creating Telegrams Bot using Python3 and TelegramAPI.<br>
-                                Working in a team of 4 participants.<br>
-                                And the presentation of the bot in front of students and the teacher
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline__col  timeline__col--right">
-                    <h4 class="timeline__title">EDUCATION</h4>
-
-                    <div class="timeline__item">
-                        <time class="timeline__date" datetime="11-21-2019">2005 - <b>2017</b></time>
-                        <h5 class="timeline__subtitle">School</h5>
-                        <div class="timeline__position">Pankivsky NVK</div>
-                    </div>
-
-                    <div class="timeline__item">
-                        <time class="timeline__date" datetime="11-21-2019">2017 - <b>2021</b></time>
-                        <h5 class="timeline__subtitle">ChNU named after Yuriy Fedkovic</h5>
-                        <div class="timeline__position">Bachelor</div>
-                    </div>
-
-                    <h4 class="timeline__title">Skills</h4>
-                    <div class="progress-bar">
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">UI/UX Design</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI0" class="progress-bar__progress"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">PHP/Laravel</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI1" class="progress-bar__progress"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">Python</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI2" class="progress-bar__progress"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">C#</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI3" class="progress-bar__progress"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">GitHub</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI4"  class="progress-bar__progress" ></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">SCRUM</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI5" class="progress-bar__progress"></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="progress-bar__item">
-                            <div class="progress-bar__left">
-                                <div class="progress-bar__title">Google Search</div>
-                            </div>
-                            <div class="progress-bar__right">
-                                <div class="progress-bar__bar">
-                                    <div id="bar_UI6" class="progress-bar__progress"></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div><!-- /.progress-bar -->
-
-                    
-                </div><!-- /.timeline__col -->
-
-            </div><!-- /.timeline -->
-
-            <div class="text-center">
-                <a class="btn" href="#" data-modal="#modal_hire_me">HIRE ME</a>
-            </div>
-
-        </div><!-- /.modal__content -->
-
-    </div><!-- /.modal__dialog -->
-</div><!-- /.modal -->
-
-
-<div class="modal" id="modal_hire_me">
-    <div class="modal__dialog  modal__dialog--sm">
-
-        <button class="modal__close" type="button" data-close>
-            <img src="images/modal-close.svg" alt="Close">
-        </button>
-
-        <div class="contact">
-            <div class="contact__left">
-                <h3 class="modal__title mb-0">LET'S TALK!</h3>
-                <h4 class="modal__subtitle">CALL ME OR SEND ME A REQUEST</h4>
-
-                <ul class="contact__info">
-                    <li class="contact__info-item">
-                        <img class="contact__info-icon" src="images/phone.svg" alt="">
-                        +380 66 074 22 69
-                    </li>
-                    <li class="contact__info-item">
-                        <img class="contact__info-icon" src="images/mail.svg" alt="">
-                        BlackStarJaxx07@gmail.com
-                    </li>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Back-End Developer</h3>
+            <!-- <p class="font-italic">
+              Hi to all. I'm Bohdan and I'm a back and developer
+            </p> -->
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 7 March 2000</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong><a href="tel:+380660742269"> +38 (066) 074-22-69 </a></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Chernivtsi/Ukraine</li>
                 </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 20</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Status:</strong> Student</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong><a href="mailto:blackstarjaxx07@gmail.com"> blackstarjaxx07@gmail.com </a></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p style="text-indent: 20px;"> Hi, I'm Bohdan, I'm 20 years old, I was born and live in the village of Panka, I studied at a local school. After graduating from school I entered to the Yuriy Fedkovych Chernivtsi National University, the Faculty of Economics, the Department of Economic Cybernetics.
+              I do sports, different kinds of sports, there are some achievements in sports, but later I realized that it was not mine, and I started playing music, studying music programs, got acquainted with motivational videos about programming and paid attention to coding. I really liked it. From school I started learning programming languages ​​myself, it all started with PascalABC, it also influenced my choice of university and specialty.
 
-                <form class="form" action="/" method="post">
-                    <div class="form__group">
-                        <label class="form__label" for="input-email">Adress e-mail</label>
-                        <input class="form__input" name="input-email" type="text" id="input-email" placeholder="Adress e-mail">
-                    </div>
+              <p style="text-indent: 20px;"> Now I have completed the 3rd year of study at the university. I work on various projects. Ready for new challenges and learning new technologies😄.</p>
+            </p>
 
-                    <div class="form__group">
-                        <label class="form__label" for="input-text">Request</label>
-                        <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Type your request..."></textarea>
-                    </div>
+          </div>
+        </div>
 
-                    <div class="text-right">
-                        <button class="btn" type="submit">SEND</button>
-                    </div>
-                    
-                </form>
-                
-            </div><!-- /.contact__left -->
-        </div><!-- /.contact -->
+      </div>
+    </section><!-- End About Section -->
 
-    </div><!-- /.modal__dialog -->
-</div><!-- /.modal -->
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2>Facts</h2>
+         <p>My way only started. But I work hard for new achievements.</p>
+         <p>Now I have reached:</p> 
+        </div>
 
+        <div class="row">
 
-<!-- JS -->
-<script src="js/slick.min.js"></script>
-<script src="js/app.js"></script>
+          <div class="col-lg-4 col-md-6">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">3</span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">7</span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">215</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+    
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MODX Revolution 2 /CMS <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C#<i class="val">25%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="section-title mt-5">
+          <p>If you fall asleep now, you will dream. If you study now, you will live your dream.</p>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>I wrote a resume and burst into tears, I'm so cool. - Third Extra (Ted)</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Economic Cybernetics</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>Yuriy Fedkovych Chernivtsi National University</em></p>
+              <p>Specialist in information systems, technology and modeling in economics and business. Study of various information systems and programming languages.</p>
+              <p>Programming languages: HTML5, CSS3, JS, PHP, C#, Python. <br>
+                 Information Systems: OODO, 1C - Enterprise.
+              </p> 
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            
+            <div class="resume-item">
+              <h4>Junior PHP/Back-End Developer</h4>
+              <h5>2019 - August/October</h5>
+              <p>Project Name: <em>Mini - CRM </em></p>
+              <h3>Task</h3>
+              <h5>Laravel Mini-CRM</h5>
+             <p>Need to create admin panel to manage companies. Basically, project to manage
+              companies and their employees. Mini-CRM.</p>
+              <h5>Tools: PHP/Laravel</h5>
+            </div>
+
+            <div class="resume-item">
+              <h4>Junior PHP/Back-End Developer</h4>
+              <h5>2019 - October/November</h5>
+              <p>Project Name: <em>Internet shop</em></p>
+              <h3>Task</h3>
+              <h5>Laravel Simple CMS</h5> <ul>
+                <li>CRON (Update currency by API every day at 00:40)</li>
+                <li>Two roles: Admin & Customer</li>
+                <li>Permissions:
+                Admin can create/ edit/ delete products
+               <br> Customer can order products</li> 
+                <li>Using Vue.Js</li>
+                <li>Database design + Complex queries</li>
+                <li>REST API (Auth, CRUD products)</li>
+              </ul>
+              <h5>Tools: PHP/Laravel</h5>
+            </div>
+
+            <div class="resume-item">
+              <h4>Junior PHP/Back-End Developer</h4>
+              <h5>2020 - March</h5>
+              <p>Project Name: <em>VitMebli Catalog / Site</em></p>
+              <h3>Task</h3>
+              <h5>Website</h5>
+              <p>Need to create a website for furniture. Create pages: about us, contacts, a catalog and categories in it, display two types of products, a PDF catalog and a photo gallery with a description.</p>
+              <h5>Tools: PHP & MODX Revolution 2</h5>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Fold the small with the small, and get a big pile - Ovidius</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/bot.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Horoscope Bot</h4>
+                <p>Horoscope Bot</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/bot.png" data-gall="portfolioGallery" class="venobox" title="Horoscope Bot"><i class="bx bx-plus"></i></a>
+                  <a href="pyBot.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Horoscope Bot"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/IS2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Internet Shop</h4>
+                <p>Internet Shop</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/IS2.png" data-gall="portfolioGallery" class="venobox" title="Internet Shop"><i class="bx bx-plus"></i></a>
+                  <a href="shop_details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Internet Shop"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/CRM.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mini-CRM</h4>
+                <p>Mini-CRM</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/CRM.png" data-gall="portfolioGallery" class="venobox" title="Mini-CRM"><i class="bx bx-plus"></i></a>
+                  <a href="crm_details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Mini-CRM"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cat-list2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>VitMebli</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/cat-list2.png" data-gall="portfolioGallery" class="venobox" title="VitMebli"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="VitMebli Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Ukraine - Chernivtsi</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:blackstarjaxx07@gmail.com">blackstarjaxx07@gmail.com</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p><a href="tel:+380(66)0742269">+380 (66) 074-22-69</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="#"  id="form-contact" method="post" role="form" class="php-email-form form-element">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Petrashchuk Bohdan</h3>
+      <h5>If you can dream it, you can do it</h5>
+      <div class="social-links">
+        <a href="https://twitter.com/Blackstarjaxx" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100008874009377" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/blackstarjaxxs/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="skype:live:blackstarjaxx07" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/bohdan-petrashchuk-316354177/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/BlackStarJaxx" class="github"><i class="bx bxl-github"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; 2020
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
