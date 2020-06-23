@@ -7,7 +7,7 @@
         // var formTitle = $(formNm).find(".form-title");
         $.ajax({
             type: "POST",
-            url: './forms/send-message-to-telegram.php',
+            url: '../forms/send-message-to-telegram.php',
             data: data,
             // data: formNm.serialize(),
             success: function (data) {
