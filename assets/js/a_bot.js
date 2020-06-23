@@ -8,7 +8,7 @@
         $.ajax({
             type: "POST",
             url: '../forms/send-message-to-telegram.php',
-            data: data,
+            data: formNm.serialize(),
             // data: formNm.serialize(),
             success: function (data) {
               // Вывод сообщения об успешной отправке
