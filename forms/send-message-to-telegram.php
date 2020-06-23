@@ -51,7 +51,7 @@ if ($sendToTelegram) {
   echo '<p class="fail">Ошибка. Вы заполнили не все обязательные поля!</p>';
 }
 } else {
-header ("Location: /");
+header ("Location: https://blackstarjaxx.github.io/");
 }
  
 
