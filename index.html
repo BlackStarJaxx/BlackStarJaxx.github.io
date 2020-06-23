@@ -410,10 +410,10 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+         <!-- <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="#" id="form-contact" method="POST" role="form" class="php-email-form">
-              <!-- <p class="form-title"></p> -->
+              <!-- <p class="form-title"></p> 
               <p class="form-message">TEST</p> 
               <div class="form-row">
                 <div class="col-md-6 form-group">
@@ -441,6 +441,17 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
+          </div> -->
+
+          <div class="form__wrapper">
+            <form id="form-contact" method="POST" class="form-element">
+              <p class="form-title">Закажите обратный звонок и наш консультант свяжется с вами</p>
+              <p class="form-message"></p>
+                <input name="name" type="text" class="form-input__name" tabindex="0" placeholder="Введите ваше имя" required>
+                <input name="phone" type="tel" class="form-input__phone" tabindex="0" pattern="^[ 0-9]+$" placeholder="Введите ваш телефон" required>
+                <input name="theme" type="hidden" class="form-input__theme"  value="Заявка с сайта">
+                <input type="submit" class="form-input__button" value="Отправить">
+            </form>
           </div>
 
         </div>
